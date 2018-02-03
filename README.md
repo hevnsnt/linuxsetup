@@ -7,7 +7,7 @@ adduser username
 usermod -aG sudo username
 
 # Install MFA for user:
-* https://www.howtogeek.com/121650/how-to-secure-ssh-with-google-authenticators-two-factor-authentication/
+https://www.howtogeek.com/121650/how-to-secure-ssh-with-google-authenticators-two-factor-authentication/
 * sudo apt-get install libpam-google-authenticator
 * google-authenticator
 * sudo nano /etc/pam.d/sshd and add "auth required pam_google_authenticator.so"
